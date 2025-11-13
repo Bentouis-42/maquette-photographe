@@ -5,18 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+     <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body> <!-- le corps-->
-    <header> <!--debut de la premier partie-->
+    <header class="contenair space-between"> <!--debut de la premier partie-->
         <h3>Clara Lenoir</h3>
-        <nav>
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+        <nav >
+            <ul class="space-between flex gap-24">
+                <li><a href="" class="text-blanc">Préstation</a></li>
+                <li><a href="" class="text-blanc">Galerie</a></li>
+                <i class="ph-fill ph-instagram-logo"></i> 
+                <i class="ph-fill ph-linkedin-logo"></i>
             </ul>
         </nav>
 
@@ -24,62 +33,151 @@
 
     <!-- section hero -->
 
-    <section>
+    <section class="hero"> <!-- premier section clara lenoire -->
         <div>
             <p>Clara Lenoir</p>
             <h1>Photographie</h1>
             <p>Capturer l’emotion, révéler la beauté du moment</p>
-            <a href=""></a>
+            <a href="">Réserver au séance</a>
         </div>
     </section>
 
-    
+
     <section> <!--SECTION 2 -mes prestation-->
-        <div> <!--GRANDE DIV-->
+        <div>
             <h2>Mes prestations</h2>
-            <div> <!--PETITE DIV-->
-                <img src="" alt="">
+            <div>
+                <img src="asset/asset/prestation-mariage.png" alt="">
                 <h3>Portraits artistiques</h3>
                 <p>Des portraits uniques, réalisés en lumière naturelle ou en studio, pour exprimer votre personnalité à
                     travers l’image.</p>
-                <img src="" alt="">
+                <img src="asset/asset/prestation-portrait.png" alt="">
                 <h3>Photographie de mariage</h3>
                 <p>Des clichés sincères et élégants qui retracent avec authenticité chaque instant de votre journée
                     exceptionnelle.</p>
-                <img src="" alt="">
+                <img src="asset/asset/prestation-professionel.png" alt="">
                 <h3>Shooting professionnel</h3>
                 <p>Des photos de qualité pour vos profils, sites web et supports de communication. Mettez votre image au
                     service de vos projets.</p>
-            </div> <!--FIN DE LA PETITE DIV-->
+            </div>
 
         </div> <!--FIN DE LA GRANDE DIV -->
-    </section> <!-- mes prestation fin-->
+    </section> <!--fin de la SEction 2 mes presentation-->
 
-    <section> <!--SECTION 2-->
-        <div> <!-- GRANDE DIV QUI VA ENGLOBER PLUSIEURS PETITES DIV-->
+    <section> <!--SECTION3-valeurs ajoutée-->
+        <div> <!--div qui va englober les valeurs que je veux ajoutée-->
             <h2>Valeurs ajoutées</h2>
-            <div> <!--premiere petite div-->
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
+            <div>
+                <img src="asset/asset/humain.png" alt="">
+                <p>Une approche humaine et bienveillante, pour des photos naturelles et pleines de vie</p>
             </div>
-            <div> <!--deuxiéme petite div-->
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
+            <div>
+                <img src="asset/asset/technique.png" alt="">
+                <p>Un savoir-faire technique au service de la créativité</p>
             </div>
-            <div> <!--troisiéme petite div-->
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
+            <div>
+                <img src="asset/asset/retouche.png" alt="">
+                <p> Des retouches subtiles pour un rendu à la fois professionnel et authentique</p>
+            </div>
+            <div>
+                <img src="asset/asset/lieu.png" alt="">
+                <p>Une flexibilité totale sur les lieux et les styles de prise de vue</p>
             </div>
 
 
 
-        </div> <!--FIN DE LA GRANDE DIV-->
+        </div>
 
-    </section> <!--fin de la deuxiéme section-->
+    </section> <!--fin de la troisiéme section-->
 
+    <section> <!-- GALERIE  4eme section-->
+        <h3>Galerie</h3>
+        <div>
+            <div>
+                <img src="asset/asset/portrait.png" alt="">
+                <h3>Portraits en lumière naturelle</h3>
+                <p>une série de portraits réalisés en extérieur, jouant avec la lumière du matin pour un rendu doux et
+                    poétique.</p>
+            </div>
+            <div>
+                <img src="asset/asset/mariage2.png" alt="">
+                <h3>Mariage d’Elodie et Maxime</h3>
+                <p>Reportage photo complet, des préparatifs à la soirée, capturant les émotions et les petits détails
+                    d’une journée inoubliable.</p>
+            </div>
+            <div>
+                <img src="asset/asset/corporate-novatech 2.png" alt="">
+                <h3>Corporate – Équipe NovaTech</h3>
+                <p>Shooting professionnel pour la communication interne et externe de l’entreprise, avec une mise en
+                    scène moderne et dynamique</p>
+            </div>
+            <div>
+                <img src="asset/asset/voyage-islande.png" alt="">
+                <h3>Voyage en Islande</h3>
+                <p>Paysages majestueux, contrastes puissants et jeux de lumière au cœur des terres islandaises</p>
+            </div>
+        </div>
+    </section> <!-- FIN DE LA GALERIE et de la 4eme section -->
+    <section> <!-- 5eme section Témoignages Clients -->
+        <div>
+            <div>
+                <h3>Amélie</h3>
+                <img src="asset/asset/Amelie.png" alt="">
+                <p>Mriage</p>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <p>Les photos de notre mariage sont magnifiques ! Clara a su saisir les émotions avec beaucoup de sensibilité. Chaque image raconte une histoire.</p>
+            </div>
+            <div>
+                <h3>Julien</h3>
+                <img src="asset/asset/Julien.png" alt="">
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <p>Un super moment passé en séance ! Clara met à l’aise et sait diriger sans forcer. 
+
+Résultat : des portraits naturels et percutants.</p>
+            </div>
+            <div>
+                <h3>Nadia</h3>
+                <img src="asset/asset/Nadia.png" alt="">
+                <p>Shooting famille</p>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <i class="ph-fill ph-star"></i>
+                <p>Nous avons adoré la séance en extérieur. Les enfants se sont amusés et les photos sont pleines de vie et d’émotion.</p>
+            </div>
+        </div>
+    </section> <!-- FIN DE LA 5 eme SECTION Témoignages CLients -->
+
+    <footer> 
+        <div>
+            <h3>Prets a travailller ensemble ? </h3>
+            <p>Une idée, un projet, une envie de collaboration ?
+                Contactez moi, je serai ravie d’en discuter et de voir comment avancer ensemble.
+                Laissez votre adresse de messagerie je vous rapellerai dans les plus brefs délais</p>
+            <h4>Clara.</h4>
+            <a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>
+        </div>
+        <div>
+            <input type="">
+            <input type="email">
+            <a href="">Envoyer</a>
+        </div>
+        <i class="ph-fill ph-instagram-logo"></i> 
+        <i class="ph-fill ph-linkedin-logo"></i>
+        <p>Mentions legales @2025 - Clara Lenoir - Photographe</p>
+       
+       
+    </footer>
 </body>
 
 </html>

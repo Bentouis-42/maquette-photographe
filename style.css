@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  
+}
+
+
+
+.hero{
+    background-image: url(asset/asset/baniere.png);
+    height: 100vh;
+    padding: auto;
+   
+  
+}
+
+
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+/* alignement verticale */
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: end;
+}
+
+/* Gap */
+
+.gap-12 {
+    gap: 12px;
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+/* direction */
+.flex-column {
+    flex-direction: column;
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.text-blanc{
+    color: white;
+
+}
+
+
+.contenair{
+    container: 1000px;
+}
